@@ -4,8 +4,13 @@
   "main": "index.js",
   "author": "Tiago Gomes",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "eslint": "^6.1.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9",
+    "nodemon": "^1.19.1"
   }
 }
